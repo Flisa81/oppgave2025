@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Online Store</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/GameHub_Logo.jpg" alt="GameHub Logo">
+            </a>
+        </div>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Games</a></li>
+                <li><a href="checkout.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="video/homevideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h1>Welcome to GameHub</h1>
+        <p>Discover the best games and shop your favorites now!</p>
+    </section>
+    
+
+    <!-- Main Content -->
+    <main>
+        <section id="product-list">
+            <h2>Available Games</h2>
+            <div class="loading">Loading products...</div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 GameHub. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
